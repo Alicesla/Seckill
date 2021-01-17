@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>秒杀商城</title>
+	<link rel="stylesheet" type="text/css" href="/temp/X-admin/css/index.css">
+	<link rel="stylesheet" href="/temp/X-admin/css/index.css">
+
+	 <link rel="stylesheet" type="text/css" href="/temp/X-admin/css/login.css">  
+</head>
+<body>
+	<div class="header">
+		<!-- 设置logo -->
+		<div class="logo">
+			<img src="/temp/X-admin/images/logo.png">
+		</div>
+		<!-- 设置菜单 -->
+		<div class="menu" onmouseleave="show_menu1()">  
+			<div class="menu_title" onclick="show_menu()">
+				<a href="#">内容分类</a></div>
+			<ul id="menu1" >
+				<li>现实主义</li>
+				<li>抽象主义</li>
+			</ul>
+		</div>
+		<!-- 设置用户登录 -->
+		<div class="auth">
+			<ul>
+			    <a href="javascript:;">{$username}</a>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="content">
+		<!-- 设置广告栏 -->
+		<div class="banner">
+			<img src="/temp/X-admin/images/welcome.png" class="banner_img">
+		</div>
+		<div class="img_content">
+			<ul>
+				<div id="login">  
+        
+        <form method="post">  
+            <input type="text" required="required" placeholder="吻" name="u"  readonly="true" > 
+            <input type="text" required="required" placeholder="抢购数量" name="p">
+            <button class="but" type="submit">抢购</button>  
+        </form>  
+    </div>  
+			</ul>
+			
+		</div>
+		<!-- 分页 -->
+
+		
+	</div>
+	
+	
+</body>
+</html>
+
